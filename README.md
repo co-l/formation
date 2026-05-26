@@ -111,4 +111,3 @@ Puis utilise la commande `/models` dans l'interface pour sélectionner le modèl
 | --------- | ---------------------------------------- |
 | OpenFox   | https://github.com/co-l/openfox          |
 | OpenCode  | https://github.com/anomalyco/opencode    |
-| Ollama    | https://ollama.com                       |

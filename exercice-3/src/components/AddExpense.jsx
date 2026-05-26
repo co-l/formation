@@ -27,7 +27,7 @@ export default function AddExpense({ people, onAdd }) {
     onAdd({
       description: description.trim(),
       amount: parseFloat(amount),
-      paidBy,
+      paidBy: paidBy,
       splitAmong: [...splitAmong],
     })
     setDescription('')
@@ -60,7 +60,7 @@ export default function AddExpense({ people, onAdd }) {
         <label className="block text-sm font-medium text-gray-700 mb-1">Payé par</label>
         <select
           value={paidBy}
-          onChange={(e) => setPaidBy(e.target.value)}
+          onChange={(e) => setPaidBy(Number(e.target.value))}
           className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent bg-white"
         >
           {people.map((p) => (

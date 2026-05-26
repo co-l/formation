@@ -1,4 +1,4 @@
-function computeBalances(people, expenses) {
+export function computeBalances(people, expenses) {
   const balance = {}
   for (const p of people) balance[p.id] = 0
 

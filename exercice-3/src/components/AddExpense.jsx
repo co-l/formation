@@ -4,7 +4,7 @@ export default function AddExpense({ people, onAdd }) {
   const [description, setDescription] = useState('')
   const [amount, setAmount] = useState('')
   const [paidBy, setPaidBy] = useState(people[0]?.id ?? '')
-  const [splitAmong, setSplitAmong] = useState(new Set())
+  const [splitAmong, setSplitAmong] = useState(new Set(people.map((p) => p.id)))
 
   function togglePerson(id) {
     const next = new Set(splitAmong)
@@ -32,7 +32,7 @@ export default function AddExpense({ people, onAdd }) {
     })
     setDescription('')
     setAmount('')
-    setSplitAmong(new Set())
+    setSplitAmong(new Set(people.map((p) => p.id)))
   }
 
   return (

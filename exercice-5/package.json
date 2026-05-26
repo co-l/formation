@@ -1,0 +1,21 @@
+{
+  "name": "exercice-5",
+  "version": "1.0.0",
+  "description": "Todo API with auth — security exercise",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.7"
+  }
+}

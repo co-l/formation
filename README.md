@@ -1,8 +1,4 @@
-# Teliae Training — Outils IA
-
-Bienvenue dans ce projet support de formation. Tu vas installer et configurer deux assistants de codage IA : **OpenFox** et **OpenCode**.
-
----
+# Formation IA - outils et exercices
 
 ## Sommaire
 
@@ -15,11 +11,12 @@ Bienvenue dans ce projet support de formation. Tu vas installer et configurer de
 
 ---
 
-## 1. OpenFox
-
-### Pré-requis
+## Pré-requis
 
 * node 24 https://nodejs.org/fr/download
+
+## 1. OpenFox
+
 
 ### Installation
 

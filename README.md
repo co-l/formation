@@ -17,6 +17,9 @@
 
 ## 1. OpenFox
 
+### Windows
+
+Télécharge et lance : https://github.com/co-l/openfox/actions/runs/26528175669/artifacts/7247572762
 
 ### Installation
 
